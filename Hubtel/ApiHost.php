@@ -4,7 +4,7 @@
         private $auth;
         private $hostname;
         
-        public function __construct($auth = null, $hostname = ""){
+        public function __construct($auth = null, $hostname = "https://smsc.hubtel.com/v1/messages/send"){
             $this->auth = $auth;
             $this->hostname = $hostname;
         }
