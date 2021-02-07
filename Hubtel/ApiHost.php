@@ -1,4 +1,6 @@
 <?php
+namespace Hubtel;
+
 
     class ApiHost{
         private $auth;
