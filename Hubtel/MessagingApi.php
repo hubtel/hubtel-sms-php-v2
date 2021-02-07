@@ -1,5 +1,4 @@
 <?php 
-namespace Hubtel;
 
 class MessagingApi {
     private $apiHost;

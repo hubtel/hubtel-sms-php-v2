@@ -6,11 +6,11 @@ $vendorDir = dirname(dirname(__FILE__));
 $baseDir = dirname($vendorDir);
 
 return array(
+    'ApiHost' => $baseDir . '/Hubtel/ApiHost.php',
+    'BasicAuth' => $baseDir . '/Hubtel/BasicAuth.php',
     'Composer\\InstalledVersions' => $vendorDir . '/composer/InstalledVersions.php',
-    'Hubtel\\ApiHost' => $baseDir . '/Hubtel/ApiHost.php',
-    'Hubtel\\BasicAuth' => $baseDir . '/Hubtel/BasicAuth.php',
-    'Hubtel\\HttpRequest' => $baseDir . '/Hubtel/HttpRequest.php',
-    'Hubtel\\Message' => $baseDir . '/Hubtel/Message.php',
-    'Hubtel\\MessageResponse' => $baseDir . '/Hubtel/MessageResponse.php',
-    'Hubtel\\MessagingApi' => $baseDir . '/Hubtel/MessagingApi.php',
+    'HttpRequest' => $baseDir . '/Hubtel/HttpRequest.php',
+    'Message' => $baseDir . '/Hubtel/Message.php',
+    'MessageResponse' => $baseDir . '/Hubtel/MessageResponse.php',
+    'MessagingApi' => $baseDir . '/Hubtel/MessagingApi.php',
 );

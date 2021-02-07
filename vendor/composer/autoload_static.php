@@ -7,13 +7,13 @@ namespace Composer\Autoload;
 class ComposerStaticInit0f612611b8f36105b3ce5b6951d89476
 {
     public static $classMap = array (
+        'ApiHost' => __DIR__ . '/../..' . '/Hubtel/ApiHost.php',
+        'BasicAuth' => __DIR__ . '/../..' . '/Hubtel/BasicAuth.php',
         'Composer\\InstalledVersions' => __DIR__ . '/..' . '/composer/InstalledVersions.php',
-        'Hubtel\\ApiHost' => __DIR__ . '/../..' . '/Hubtel/ApiHost.php',
-        'Hubtel\\BasicAuth' => __DIR__ . '/../..' . '/Hubtel/BasicAuth.php',
-        'Hubtel\\HttpRequest' => __DIR__ . '/../..' . '/Hubtel/HttpRequest.php',
-        'Hubtel\\Message' => __DIR__ . '/../..' . '/Hubtel/Message.php',
-        'Hubtel\\MessageResponse' => __DIR__ . '/../..' . '/Hubtel/MessageResponse.php',
-        'Hubtel\\MessagingApi' => __DIR__ . '/../..' . '/Hubtel/MessagingApi.php',
+        'HttpRequest' => __DIR__ . '/../..' . '/Hubtel/HttpRequest.php',
+        'Message' => __DIR__ . '/../..' . '/Hubtel/Message.php',
+        'MessageResponse' => __DIR__ . '/../..' . '/Hubtel/MessageResponse.php',
+        'MessagingApi' => __DIR__ . '/../..' . '/Hubtel/MessagingApi.php',
     );
 
     public static function getInitializer(ClassLoader $loader)
