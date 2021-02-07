@@ -9,7 +9,7 @@ class MessageResponse {
 	 * Primary constructor.
 	 */
 	public function __construct($json) {
-		$this->object = is_object($json) ? $json : new stdClass;
+		$this->object = is_object($json) ? $json : new \stdClass;
 	}
 	
 	/**

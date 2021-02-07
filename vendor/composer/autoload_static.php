@@ -12,8 +12,8 @@ class ComposerStaticInit0f612611b8f36105b3ce5b6951d89476
         'Hubtel\\BasicAuth' => __DIR__ . '/../..' . '/Hubtel/BasicAuth.php',
         'Hubtel\\HttpRequest' => __DIR__ . '/../..' . '/Hubtel/HttpRequest.php',
         'Hubtel\\Message' => __DIR__ . '/../..' . '/Hubtel/Message.php',
-        'Hubtel\\MessageApi' => __DIR__ . '/../..' . '/Hubtel/MessageApi.php',
         'Hubtel\\MessageResponse' => __DIR__ . '/../..' . '/Hubtel/MessageResponse.php',
+        'Hubtel\\MessagingApi' => __DIR__ . '/../..' . '/Hubtel/MessagingApi.php',
     );
 
     public static function getInitializer(ClassLoader $loader)

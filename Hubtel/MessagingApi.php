@@ -1,7 +1,7 @@
 <?php 
 namespace Hubtel;
 
-class MessageApi {
+class MessagingApi {
     private $apiHost;
     private $httpRequest;
 
@@ -19,6 +19,8 @@ class MessageApi {
 
         $response = $this->httpRequest->get($request);
 
+        echo $response;
+        
         return new MessageResponse($response);
     }
 }

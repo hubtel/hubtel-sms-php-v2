@@ -11,6 +11,6 @@ return array(
     'Hubtel\\BasicAuth' => $baseDir . '/Hubtel/BasicAuth.php',
     'Hubtel\\HttpRequest' => $baseDir . '/Hubtel/HttpRequest.php',
     'Hubtel\\Message' => $baseDir . '/Hubtel/Message.php',
-    'Hubtel\\MessageApi' => $baseDir . '/Hubtel/MessageApi.php',
     'Hubtel\\MessageResponse' => $baseDir . '/Hubtel/MessageResponse.php',
+    'Hubtel\\MessagingApi' => $baseDir . '/Hubtel/MessagingApi.php',
 );
