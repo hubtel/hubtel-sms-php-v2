@@ -10,7 +10,7 @@ This is an open source PHP SDK that allows you to access the Hubtel [REST SMS AP
 The SDK can smoothly run on **PHP 5.3 and above with CURL extension enabled**.
 The Hubtel PHP SDK can be installed with [Composer](https://getcomposer.org). Run this command:
 
-`composer require hubtel/hubtel-sms`
+`composer require hubtel/hubtel-sms-sdk`
  
 You can also download the **Hubtel** folder from the repository and add it to your project. 
 You may then <code>include</code> the Hubtel/Api.php file by referring to the
