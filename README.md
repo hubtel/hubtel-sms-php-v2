@@ -18,7 +18,7 @@ appropriate path like such: <pre><code>include '/path/to/location/Hubtel/Api.php
 
 ## **Usage**
 
-The SDK currently is organized around four main classes:
+The SDK currently is organized around the following classes:
 
 * *MessagingApi.php* : 
     It handles sending messages.(For more information about these terms refer to [Our developer site](http://developers.hubtel.com/documentations/sendmessage).)
